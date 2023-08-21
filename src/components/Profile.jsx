@@ -6,6 +6,7 @@ function Profile({ username, tag, location, avatar, stats }) {
   const { followers, views, likes } = stats;
 
   return (
+    <div className="profile-container">
     <div className="profile">
       <div className="description">
         <img src={avatar} alt={`${username}'s avatar`} className="avatar" />
@@ -27,6 +28,7 @@ function Profile({ username, tag, location, avatar, stats }) {
           <span className="quantity">{likes}</span>
         </li>
       </ul>
+    </div>
     </div>
   );
 }

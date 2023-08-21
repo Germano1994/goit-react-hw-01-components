@@ -5,11 +5,13 @@ import './FriendList.css';
 
 function FriendList({ friends }) {
   return (
+    <div className="friend-list-container">
     <ul className="friend-list">
       {friends.map(friend => (
         <FriendListItem key={friend.id} friend={friend} />
       ))}
     </ul>
+    </div>
   );
 }
 

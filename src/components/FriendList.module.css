@@ -1,18 +1,17 @@
-.friend-list-container {
+.friendListContainer {
   padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
- 
 }
 
-.friend-list {
+.friendList {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.friend-list .item {
+.item {
   display: flex;
   align-items: center;
   border: 1px solid #ccc;
@@ -21,30 +20,28 @@
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.friend-list .avatar {
+.avatar {
   width: 48px;
   height: 48px;
   border-radius: 50%;
   margin-right: 10px;
 }
 
-.friend-list .status {
+.status {
   width: 20px;
   height: 20px;
   border-radius: 50%;
   margin-right: 10px;
 }
 
-.friend-list .name {
+.name {
   font-weight: bold;
 }
 
-  
-  .friend-list .status.online {
-    background-color: green;
-  }
-  
-  .friend-list .status.offline {
-    background-color: red;
-  }
-  
+.statusOnline {
+  background-color: green;
+}
+
+.statusOffline {
+  background-color: red;
+}

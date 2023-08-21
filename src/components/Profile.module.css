@@ -1,4 +1,4 @@
-.profile-container {
+.profileContainer {
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -46,13 +46,13 @@
   align-items: center;
 }
 
-.stats-list {
+.statsList {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.stats-item {
+.statsItem {
   display: flex;
   align-items: center;
   margin-bottom: 5px;
@@ -68,8 +68,24 @@
   color: #333;
 }
 
-.stats-item span.label {
+.statsItem .label {
   display: none; 
 }
 
+.labelFollowers {
+  font-weight: bold;
+  color: #555;
+  margin-right: 5px;
+}
 
+.labelViews {
+  font-weight: bold;
+  color: #555;
+  margin-right: 5px;
+}
+
+.labelLikes {
+  font-weight: bold;
+  color: #555;
+  margin-right: 5px;
+}

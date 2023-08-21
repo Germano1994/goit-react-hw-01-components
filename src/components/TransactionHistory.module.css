@@ -1,29 +1,28 @@
-.transaction-history-container {
+.transactionHistoryContainer {
   padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
- 
 }
 
-.transaction-history {
+.transactionHistory {
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
 }
 
-.transaction-history th,
-.transaction-history td {
+.transactionHistory th,
+.transactionHistory td {
   border: 1px solid #ccc;
   padding: 10px;
   text-align: center;
 }
 
-.transaction-history th {
+.transactionHistory th {
   background-color: #f0f0f0;
   font-weight: bold;
 }
 
-.transaction-history tbody tr:nth-child(even) {
+.transactionHistory tbody tr:nth-child(even) {
   background-color: #f5f5f5;
 }
